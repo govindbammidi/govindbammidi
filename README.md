@@ -59,6 +59,7 @@ I build **multi-tenant products, clean React interfaces, and Node.js / PostgreSQ
 - One of the founding engineers on the **[Maahita School ERP](https://school.maahita.com/)** - a **multi-tenant SaaS** for Indian schools with **15+ modules** (admissions, timetable, marks, fees, subscriptions) and **570 REST endpoints**
 - Helped move the platform from single-tenant Firebase to **schema-per-tenant PostgreSQL** behind an Adapter/Repository layer, with **240+ versioned migrations** and a CI drift check
 - Built **role-based access control** across four roles and a **Razorpay** webhook-driven subscription lifecycle (trial, grace period, upgrade)
+- Built **[GeoGuard](https://geoguard-geofencing.vercel.app)** - a real-time **geofencing and vehicle alert system**: PostGIS point-in-polygon with a **GIST index**, entry/exit detection with **per-vehicle row locks**, and alerts pushed over **WebSocket** after commit; Go API, React + Leaflet map, Docker, deployed on Render and Vercel
 - Built **[Vinodam](https://vinodam-maahita.web.app/)** - a live quiz platform with **three synced screens** and real-time scoring; its first event ran with **300 students** and the principal rewarded the team with **₹5,000**
 - Ship and own releases with **Docker + Nginx on DigitalOcean** via **GitHub Actions**, tested with **Vitest** and **Playwright**; also demoed the product to schools in person and helped onboard **two pilot schools**
 - Write an **[engineering journal](https://govind-dev-eta.vercel.app/journal)**, also on **[Medium](https://medium.com/@bammidigovindarao1729)**, about what building the product teaches me: tenant isolation, debugging money bugs, interviews
@@ -73,34 +74,39 @@ I build **multi-tenant products, clean React interfaces, and Node.js / PostgreSQ
 
 <table>
 <tr>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
 <a href="https://school.maahita.com/"><img src="https://img.shields.io/badge/MAAHITA_ERP-111111?style=for-the-badge&logo=googleclassroom&logoColor=FFFFFF" height="28" alt="Maahita ERP"></a><br>
 <b>Multi-tenant School ERP</b><br>
 <a href="https://school.maahita.com/">Live</a> · <a href="https://github.com/govindaraob-maahita">Work GitHub</a>
 </td>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
 <a href="https://vinodam-maahita.web.app/"><img src="https://img.shields.io/badge/VINODAM-111111?style=for-the-badge&logo=firebase&logoColor=FFFFFF" height="28" alt="Vinodam"></a><br>
 <b>Live School Quiz</b><br>
 <a href="https://vinodam-maahita.web.app/">Live</a> · <a href="https://govind-dev-eta.vercel.app/journal/building-vinodam-what-shipping-really-means">Story</a>
 </td>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
+<a href="https://geoguard-geofencing.vercel.app"><img src="https://img.shields.io/badge/GEOGUARD-111111?style=for-the-badge&logo=leaflet&logoColor=FFFFFF" height="28" alt="GeoGuard"></a><br>
+<b>Real-time Geofence Alerts</b><br>
+<a href="https://geoguard-geofencing.vercel.app">Live</a> · <a href="https://geofencing-backend-pvyu.onrender.com/health">API</a>
+</td>
+<td align="center" width="25%" valign="top">
 <a href="https://metro-qms.vercel.app/login"><img src="https://img.shields.io/badge/METRO_OPS-111111?style=for-the-badge&logo=react&logoColor=FFFFFF" height="28" alt="Metro Ops"></a><br>
 <b>Shift Handover (Pilot)</b><br>
 <a href="https://metro-qms.vercel.app/login">Live</a> · <a href="https://govind-dev-eta.vercel.app/work/metro-operations-shift-handover">Breakdown</a>
 </td>
 </tr>
 <tr>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
 <a href="https://safepickup-zeta.vercel.app/"><img src="https://img.shields.io/badge/SAFEPICKUP-111111?style=for-the-badge&logo=brevo&logoColor=FFFFFF" height="28" alt="SafePickup"></a><br>
 <b>Child Care Updates</b><br>
 <a href="https://safepickup-zeta.vercel.app/">Live</a> · <a href="https://govind-dev-eta.vercel.app/work/child-care-parent-communication">Breakdown</a>
 </td>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
 <a href="https://govind-dev-eta.vercel.app/"><img src="https://img.shields.io/badge/GOVIND.DEV-111111?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" height="28" alt="govind.dev"></a><br>
 <b>Portfolio & Journal</b><br>
 <a href="https://govind-dev-eta.vercel.app/">Live</a> · <a href="https://github.com/govindbammidi/govind-dev">Code</a>
 </td>
-<td align="center" width="33%" valign="top">
+<td align="center" width="25%" valign="top">
 <a href="https://medium.com/@bammidigovindarao1729"><img src="https://img.shields.io/badge/MEDIUM-111111?style=for-the-badge&logo=medium&logoColor=FFFFFF" height="28" alt="Medium"></a><br>
 <b>Engineering Writing</b><br>
 <a href="https://medium.com/@bammidigovindarao1729">Live</a> · <a href="https://govind-dev-eta.vercel.app/journal">Journal</a>
